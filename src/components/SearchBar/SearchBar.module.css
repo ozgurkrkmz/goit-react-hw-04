@@ -1,0 +1,40 @@
+.header {
+  background: #2980b9;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.formInput {
+  border: 1px solid gray;
+  outline: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  width: 400px; 
+}
+
+.formButton {
+    border: none;
+    outline: none;
+    padding: 10px 5px;
+    background-color: transparent;
+    color: gray;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.formButton i {
+  font-size: 20px;
+}
+
+.formInput:focus {
+  border: 1px solid #3498db;
+}
